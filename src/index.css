@@ -36,3 +36,9 @@ body {
     border-radius: 15px;
   }
   
+  @media (max-width: 600px) {
+    textarea {
+      width: 90%; /* Adjust width for smaller screens */
+      font-size: 18px; /* Adjust font-size for smaller screens */
+    }
+  }

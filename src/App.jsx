@@ -13,7 +13,7 @@ function App() {
   return (
     <>
       <div className="Container">
-        <h1>Word Counter | Just Count It</h1>
+        <h1>Word Counter</h1>
         <textarea
           placeholder="Type or paste your text here..."
           value={text}
