@@ -1,22 +1,29 @@
-import { useState } from 'react'
-import './App.css'
-import LengthGuesser from './components/LengthGuesser'
-import WordCounter from './components/WordCounter'
+import { useState } from "react";
+import "./App.css";
+import LengthGuesser from "./components/LengthGuesser";
+import WordCounter from "./components/WordCounter";
 
 function App() {
-  const [text, setText] = useState('');
+  const [text, setText] = useState("");
 
   const handleChange = (event) => {
-    setText(event.target.value)
-  }
+    setText(event.target.value);
+  };
 
   return (
     <>
-      <textarea value={text} onChange={handleChange} />
-      <WordCounter text={text}/>
-      <LengthGuesser text={text}/>
+      <div className="Container">
+        <h1>Word Counter | Just Count It</h1>
+        <textarea
+          placeholder="Type or paste your text here..."
+          value={text}
+          onChange={handleChange}
+        />
+        <WordCounter text={text} />
+        <LengthGuesser text={text} />
+      </div>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
