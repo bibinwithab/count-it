@@ -40,7 +40,7 @@ This is a simple React application created using Vite that allows users to input
 
 ### Demo
 
-Visit the live demo - [Count It](https://dulcet-liger-b51c79.netlify.app/)
+Visit the live demo - [Count It]((https://count-it-eight.vercel.app/))
 
 ### Usage
 
