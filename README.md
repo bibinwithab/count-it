@@ -1,6 +1,6 @@
 # Count It - React Word Counter App
 
-![React](https://img.shields.io/badge/React-17.0.2-blue) ![Vite](https://img.shields.io/badge/Vite-2.6.0-brightgreen) [![Netlify Status](https://api.netlify.com/api/v1/badges/5f56977f-5ef8-4d82-a70a-1ca374cd45a3/deploy-status)](https://app.netlify.com/sites/dulcet-liger-b51c79/deploys)
+![React](https://img.shields.io/badge/React-17.0.2-blue) ![Vite](https://img.shields.io/badge/Vite-2.6.0-brightgreen)
 
 This is a simple React application created using Vite that allows users to input or paste text and get information about the word count and estimated reading time.
 
