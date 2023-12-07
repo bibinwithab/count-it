@@ -38,9 +38,9 @@ This is a simple React application created using Vite that allows users to input
 
    The app will be accessible at `http://localhost:5173` in your browser.
 
-#### Or
+### Demo
 
-Click the netlify link - ![Count It](https://dulcet-liger-b51c79.netlify.app/)
+Visit the live demo - [Count It](https://dulcet-liger-b51c79.netlify.app/)
 
 ### Usage
 
