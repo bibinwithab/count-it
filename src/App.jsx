@@ -10,6 +10,15 @@ function App() {
     setText(event.target.value);
   };
 
+  const handlePasteButton = async () => {
+    try {
+      const clipboardText = await navigator.clipboard.readText();
+      setText(clipboardText);
+    } catch (error) {
+      console.error("Failed to Paste text from Clipboard" + error);
+    }
+  };
+
   return (
     <>
       <div className="Container">
@@ -19,6 +28,9 @@ function App() {
           value={text}
           onChange={handleChange}
         />
+        <button onClick={handlePasteButton}>
+          Click To Paste text From Clipboard.
+        </button>
         <WordCounter text={text} />
         <LengthGuesser text={text} />
       </div>
