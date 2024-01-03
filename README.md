@@ -84,5 +84,5 @@ Contributions are welcome! To contribute to `count-it`, follow these steps:
 3. Make your changes and commit them: `git commit -m 'Add new feature'`.
 4. Push to the branch: `git push origin feature/new-feature`.
 5. Submit a pull request.
-6. 
+
 Feel free to contribute, report issues, or suggest improvements!
