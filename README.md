@@ -21,7 +21,7 @@ This is a simple React application created using Vite that allows users to input
 2. Navigate to the project directory:
 
    ```bash
-   cd coint-it
+   cd count-it
    ```
 
 3. Install dependencies:
